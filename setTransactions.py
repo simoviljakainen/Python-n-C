@@ -16,6 +16,4 @@ with open(file, encoding="utf-8",mode='r') as f:
         output.write(line)
         
 output.write(cmmt)        
-                    
-f.close()
 output.close()
